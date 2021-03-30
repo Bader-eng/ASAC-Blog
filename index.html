@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <li>ASAC</li>
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+    </header>
+
+    <form id="regester">
+        <label for="author name">author name</label>
+        <input type="text"  id="authorname"><br>
+
+        <label for="article title">article title</label>
+        <input type="text"  id="articletitle"><br>
+        <label for="subject">subject</label>
+        <select id="subject">
+            <option value="Coding">Coding</option>
+            <option value="3D printing">3D printing</option>
+            <option value="Cyber securit">Cyber securit</option>
+            <option value="AI">AI </option>
+        </select><br>
+        <label for="content">content</label>
+        <input type="text"  width="40px" id="content"><br>
+        <label for="day">day</label>
+        <input type="number" placeholder="day" id="day">
+        <label for="month">month</label>
+        <input type="number" placeholder="month" id="month">
+        <label for="year">year</label>
+        <input type="number" placeholder="year" id="year"><br>
+        <button id="submit" type="submit" value="submit">submit</button><br>
+    </form>
+    <article id="section">
+        <div id="display">
+
+        </div>
+    </article>
+        <script src="./js/app.js"></script>
+</body>
+</html>
